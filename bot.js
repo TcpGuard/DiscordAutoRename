@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 bot.on('ready' , ()=>{
 console.log(bot.user.tag)
 })
-const tag = `🎅🎉`
+const tag = `!『RED』`
 const tag2 = `🎉`
 bot.on('message', msg  =>{
     if(!msg.guild)return;
